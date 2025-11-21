@@ -17,21 +17,28 @@
   the iteration process.
 -->
 
-**Language/Version**: [e.g., Python 3.11, Swift 5.9, Rust 1.75 or NEEDS CLARIFICATION]  
-**Primary Dependencies**: [e.g., FastAPI, UIKit, LLVM or NEEDS CLARIFICATION]  
-**Storage**: [if applicable, e.g., PostgreSQL, CoreData, files or N/A]  
-**Testing**: [e.g., pytest, XCTest, cargo test or NEEDS CLARIFICATION]  
-**Target Platform**: [e.g., Linux server, iOS 15+, WASM or NEEDS CLARIFICATION]
-**Project Type**: [single/web/mobile - determines source structure]  
-**Performance Goals**: [domain-specific, e.g., 1000 req/s, 10k lines/sec, 60 fps or NEEDS CLARIFICATION]  
-**Constraints**: [domain-specific, e.g., <200ms p95, <100MB memory, offline-capable or NEEDS CLARIFICATION]  
+**Language/Version**: Python 3.12+
+**Primary Dependencies**: uv, pytest
+**Storage**: [if applicable, e.g., PostgreSQL, files or N/A]
+**Testing**: pytest with 80% code coverage minimum.
+**Target Platform**: [e.g., Linux server, WASM or NEEDS CLARIFICATION]
+**Project Type**: [single/web/mobile - determines source structure]
+**Performance Goals**: [domain-specific, e.g., 1000 req/s, 10k lines/sec, 60 fps or NEEDS CLARIFICATION]
+**Constraints**: [domain-specific, e.g., <200ms p95, <100MB memory, offline-capable or NEEDS CLARIFICATION]
 **Scale/Scope**: [domain-specific, e.g., 10k users, 1M LOC, 50 screens or NEEDS CLARIFICATION]
 
 ## Constitution Check
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **TDD**: Is there a plan for writing tests before code?
+- [ ] **Python 3.12+**: Is the project using Python 3.12+?
+- [ ] **Clean Code**: Does the plan promote clean, readable code (SOLID, DRY, KISS)?
+- [ ] **ADRs**: Are major decisions being documented as ADRs?
+- [ ] **Git**: Is the project using git for version control?
+- [ ] **Tests Pass**: Is it confirmed that all tests must pass before merging?
+- [ ] **80% Coverage**: Is 80% code coverage enforced?
+- [ ] **Dataclasses**: Are dataclasses being used for data structures?
 
 ## Project Structure
 

@@ -12,6 +12,9 @@
   Each user story/journey must be INDEPENDENTLY TESTABLE - meaning if you implement just ONE of them,
   you should still have a viable MVP (Minimum Viable Product) that delivers value.
   
+  In accordance with the project constitution, all user stories must be implemented following a
+  Test-Driven Development (TDD) approach. This means tests should be written before the implementation.
+  
   Assign priorities (P1, P2, P3, etc.) to each story, where P1 is the most critical.
   Think of each story as a standalone slice of functionality that can be:
   - Developed independently
